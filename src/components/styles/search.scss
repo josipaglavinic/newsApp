@@ -1,0 +1,102 @@
+
+.search_container{
+    padding: 20px;
+    display: flex;
+    margin-left: 155px;
+}
+.search{
+    align-items: center;
+  justify-content: center;
+}
+.search_input {
+    align-items: center;
+    padding-left: 50px;
+    font-size: 15px;
+    border: none;
+    height: 50px;
+    width: 725px;
+    border-radius: 10px;
+    box-shadow:  0 9px 54px 0 rgba(0,0,0,0.16);
+    cursor: pointer;
+}
+
+
+.search_button{
+    background-color: #BB1E1E;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    height: 40px;
+    width: 95px;
+    margin-left: -100px;
+    cursor: pointer;
+}
+
+.search_icon{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.my_news{
+    color:#1D1D1B;
+    height: 39px;
+    width: 139px;
+    font-size: 32px;
+    font-weight: 900;
+    letter-spacing: 0;
+    font-family: Inter;
+    padding-right: 43px;
+
+}
+.my_news::before{
+    content: "My";
+    color: red;
+}
+.menu_button{
+    display: none;
+}
+
+@media screen and (max-width: 760px){
+
+.mobile_search{
+    display: flex;
+    .menu_button{
+        display: flex;
+    }
+}
+    .my_news{
+        display: inline-flex;
+        padding-bottom: 20px;
+        padding-right: 150px
+    }
+    
+}
+
+@media screen and (max-width: 760px){
+    .search_button{
+        display: none;
+    }
+.menu_button{
+    display: inline;
+    border:none;
+    background-color: none;
+}}
+
+    @media screen and (max-width: 760px){
+        .search_container{
+            display: inline-block;
+        margin-left: 0px;
+        width: 100%;
+    }}
+
+    @media screen and (max-width: 760px){
+        .search_input{
+        width: 80%;
+    }}
+
+
+
+
+

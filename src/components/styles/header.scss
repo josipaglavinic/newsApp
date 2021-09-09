@@ -1,0 +1,74 @@
+.header_container{
+    background-image:url(../../images/background.png);
+    width: 1440px;
+    height: 60px;
+    padding-left: 170px;
+    place-items: center;
+    justify-self: center;
+    display: flex;
+    background-color:none;
+
+}  
+.header_buttons{
+    background-color: none;
+}
+
+.header_text{
+    color: white;
+    position: relative;
+    background-color:none;
+    
+}
+.header_title1{
+    height: 21px;
+    width: 237px;
+    margin-right: 46px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.14px;
+    line-height: 21px;
+    background-color:none;
+}
+.header_title2 {
+    height: 21px;
+    width: 330px;
+    font-size: 14px;
+    letter-spacing: -0.12px;
+    line-height: 21px;
+    margin-right: 273px;
+    background-color:none;
+}
+
+
+.get_button {
+    height: 40px;
+    width: 69px;
+    color: black;
+    line-height: 20px;
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+    margin-left: 273px;
+    cursor: pointer;
+}
+.get_button_text{
+    text-align: center;
+    height: 20px;
+    width: 29px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.noThanks_button{
+    color: white;
+    background: none;
+    border: none;
+    margin-left: 24px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 960px){
+    .header_container{
+        display: none;
+    }
+}
