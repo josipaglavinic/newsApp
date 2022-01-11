@@ -14,6 +14,7 @@ News Portal is web application for reading news all over the world
 - search bar (filtered by the name of the article)
 - categories (the possibility to filter articles by category)
 - getting data from API
+- responsive
 
 # Design decisions
 - The *Latest News* Icon and title in the mobile version was removed, because by clicking on the navigation bar *Latest* it already implies that the latest news are being listed
