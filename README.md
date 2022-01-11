@@ -16,11 +16,6 @@ News Portal is web application for reading news all over the world
 - getting data from API
 - responsive
 
-# Design decisions
-- The *Latest News* Icon and title in the mobile version was removed, because by clicking on the navigation bar *Latest* it already implies that the latest news are being listed
-- When there is no author specified or of unknown origin, *Author unknown* will be shown under the title
-- When the article has no picture attacked to it, a grey box containing *No image* will be displayed
-
 # Instalation
 - clone repository (https://github.com/josipaglavinic/newsApp)
 - ``` npm install ```
